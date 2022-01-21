@@ -1,0 +1,63 @@
+.car {
+    background-color: aqua;
+    color: white;
+    font-size: small;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.car.on {
+    border: 2px solid red;
+    display: flex;
+    color: black;
+    background-color: white;
+}
+
+.box {
+    margin: 200px 500px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid #000;
+}
+
+li {
+    line-height: 25px;
+}
+
+ul {
+    padding: 10px;
+    box-sizing: border-box;
+    width: calc(100% / 4);
+    padding: 0;
+    border: 1px solid #000;
+}
+
+ul:nth-child(odd) {
+    background-color: aquamarine;
+}
+
+ul:nth-child(even) {
+    background-color: pink;
+}
+
+ul {
+    border: none;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+ul:nth-child(1),
+ul:nth-child(2),
+ul:nth-child(3),
+ul:nth-child(4) {
+    border-top: none;
+}
+
+ul:nth-child(4n) {
+    border-right: none;
+}
